@@ -1,7 +1,7 @@
 +++
 title = 'Monitoring Observability Journey'
 date = 2026-03-25T16:40:26Z
-draft = False
+draft = false
 +++
 
 I spent my career building "things" and then finding ways to monitor that they were working. Early on, this included having a human go to websites, take screenshots, and save them. This made no one happy.
