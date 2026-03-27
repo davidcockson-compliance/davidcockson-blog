@@ -1,0 +1,56 @@
+/* 1. Pull in the SRE Dashboard Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700;800&display=swap');
+
+/* Apply JetBrains Mono to all headings and the site title */
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: 'JetBrains Mono', monospace !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Apply Inter to all readable body text */
+body, p, span, a {
+  font-family: 'Inter', sans-serif;
+}
+
+/* 2. Create the Neon Cyan Glow */
+:root {
+  /* Cyberpunk Cyan Accent */
+  --color-primary-500: 0, 255, 255; 
+  --color-primary-600: 0, 200, 200;
+}
+
+/* Make links and buttons glow on hover */
+a:hover, .text-primary-600:hover {
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Make your tagline punchy and glowing */
+.hero-description {
+  color: #00FFFF !important;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Force a true black/dark terminal background */
+html.dark body {
+  background-color: #0d1117 !important; /* This is the GitHub Dark Mode background color */
+}
+
+/* Ensure the cards match the dark theme */
+html.dark .bg-neutral-100 {
+  background-color: #161b22 !important; 
+}
+
+/* Add a heavy 'smoked glass' shadow behind the text for readability */
+h1, .hero-description, .site-title {
+  text-shadow: 
+    0px 4px 25px rgba(0, 0, 0, 1), 
+    0px 0px 10px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Optional: Dim the background image slightly */
+.absolute.inset-0 img {
+  filter: brightness(0.4) grayscale(1) !important;
+}

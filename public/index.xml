@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
+    <title>~/david.cockson</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Blowfish</description>
+    <description>Recent content on ~/david.cockson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hello@davidcockson.com (David Cockson)</managingEditor>
     <webMaster>hello@davidcockson.com (David Cockson)</webMaster>
     <copyright>© 2026 David Cockson</copyright>
-    <lastBuildDate>Wed, 25 Mar 2026 16:40:26 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2026 13:10:12 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lccp Filter Self Made Tools</title>
+      <link>//localhost:1313/posts/lccp-filter-self-made-tools/</link>
+      <pubDate>Thu, 26 Mar 2026 13:10:12 +0000</pubDate>
+      <author>hello@davidcockson.com (David Cockson)</author>
+      <guid>//localhost:1313/posts/lccp-filter-self-made-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>How I Fell in Love With Obsidian</title>
+      <link>//localhost:1313/posts/how-i-fell-in-love-with-obsidian/</link>
+      <pubDate>Thu, 26 Mar 2026 11:22:37 +0000</pubDate>
+      <author>hello@davidcockson.com (David Cockson)</author>
+      <guid>//localhost:1313/posts/how-i-fell-in-love-with-obsidian/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Monitoring Observability Journey</title>
