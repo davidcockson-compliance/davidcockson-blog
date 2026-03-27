@@ -24,7 +24,7 @@
   
   
   
-  <link rel="canonical" href="//localhost:1313/posts/monitoring-observability-journey/">
+  <link rel="canonical" href="//localhost:1313/posts/monitoring-observability-journey/monitoring-observability-journey/">
   
 
   
@@ -52,7 +52,7 @@
   
 
   
-  <meta property="og:url" content="//localhost:1313/posts/monitoring-observability-journey/">
+  <meta property="og:url" content="//localhost:1313/posts/monitoring-observability-journey/monitoring-observability-journey/">
   <meta property="og:site_name" content="~/david.cockson">
   <meta property="og:title" content="Monitoring Observability Journey">
   <meta property="og:locale" content="en">
@@ -60,11 +60,9 @@
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-25T16:40:26+00:00">
     <meta property="article:modified_time" content="2026-03-25T16:40:26+00:00">
-    <meta property="og:image" content="//localhost:1313/posts/monitoring-observability-journey/feature.png">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/posts/monitoring-observability-journey/feature.png">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Monitoring Observability Journey">
 
   
@@ -222,7 +220,7 @@
     "headline": "Monitoring Observability Journey",
     
     "inLanguage": "en",
-    "url" : "//localhost:1313/posts/monitoring-observability-journey/",
+    "url" : "//localhost:1313/posts/monitoring-observability-journey/monitoring-observability-journey/",
     "author" : {
       "@type": "Person",
       "name": "David Cockson"
@@ -401,38 +399,6 @@
 
 
 
-
-  
-  
-
-
-
-  
-    
-  
-    
-  
-    
-  
-
-
-
-
-  
-    
-    
-      
-      
-    
-  
-
-
-
-
-
-
-
-
   
   
     
@@ -446,69 +412,16 @@
 
 
 
+  
+  
+
 
 
 
   
-    
-    
-      
-      
-    
-  
 
 
 
-
-
-
-  <div class="overflow-hidden rounded-md h-36 md:h-56 lg:h-72 nozoom">
-    <img
-      src="/posts/monitoring-observability-journey/feature_hu_98420f692cb6a6e6.png"
-      role="presentation"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high"
-      class="w-full h-full nozoom object-cover"
-      >
-  </div>
-
-
-
-<div class="single_hero_background nozoom fixed inset-x-0 top-0 h-[800px]">
-  
-    
-    
-    
-    <img
-      id="background-image-main"
-      src="/posts/monitoring-observability-journey/feature_hu_98420f692cb6a6e6.png"
-      role="presentation"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high"
-      class="absolute inset-0 h-full w-full object-cover"
-      >
-  
-  <div
-    class="from-neutral absolute inset-0 bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
-  <div
-    class="from-neutral to-neutral absolute inset-0 bg-gradient-to-t opacity-30 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800 dark:opacity-60"></div>
-</div>
-
-
-  <div
-    id="background-blur"
-    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
-    integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
-    data-blur-id="background-blur"
-    data-image-id="background-image-main"
-    data-image-url="/posts/monitoring-observability-journey/feature.png"></script>
 
 
       
@@ -587,42 +500,7 @@
 
       </div>
       
-    </header>
-
-    
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-      
-      
-      
-      
-      
-
-
-      <div class="min-w-0 min-h-0 max-w-fit">
         
-
-        <div class="article-content max-w-prose mb-20">
-          <p>I spent my career building &ldquo;things&rdquo; and then finding ways to monitor that they were working. Early on, this included having a human go to websites, take screenshots, and save them. This made no one happy.</p>
-<p>Then one day, sat in the office helping QA a website before it went live, it came up in conversation that the product and QA team already tested everything I wanted to test with bots, and yes, they could save me some screenshots in a folder when they did it. How frequently did I want them?</p>
-<p>So when I recently started exploring infrastructure, monitoring was one of the areas that interested me most. I did my research: Grafana and Prometheus was the stack used in industry, so that seemed like the one. A few guides later, some pestering of Gemini and Claude, and I had my first runbook to set up my own monitoring stack.</p>
-<p>The goal was to monitor the Docker containers on my home server, a Proxmox box with an Ubuntu VM, containers organised with Portainer.</p>
-<p>I added Grafana, Prometheus, and cAdvisor following the multitude of guides, and hit a wall. Nothing was working. A few searches led nowhere, the logs didn&rsquo;t show anything wrong, it just didn&rsquo;t work. I turned to AI agents and started working through a multitude of excited suggestions which would immediately fix this. None did.</p>
-<p>Eventually we had success! cAdvisor wasn&rsquo;t working because of <em>something I didn&rsquo;t understand at the time</em>, but Telegraf would work just as well. However, this was many hours of YAML editing later.</p>
-<p>Then it was time to make my Grafana dashboard. All of the guides and advice use particular labels, which are not the ones used by Telegraf. The actual process was frustrating and took forever, every logical step to add the top 5 most resource-intensive containers seemed to lead to 15 rows of identical Valheim mocking me. But in the end I got lucky and was blessed with a lovely and useful dashboard.</p>
-<p>I loved this dashboard. I look at it on my phone and laptops using Tailscale to check if things are working when they should be (frustratingly, they often won&rsquo;t). I&rsquo;ve seen when my partner was watching something on Plex, that my 6-hourly scheduled actions were happening with the tools I&rsquo;d built, and that I was running a bunch of containers I wasn&rsquo;t using which took 30 seconds to start, so I turned them off to save resources.</p>
-<p>Then I saw a new Manchester tech meetup: Grafana and Friends. I&rsquo;d just seen someone explain some interesting ways of using OpenTelemetry, a topic which would be coming up again. I did some research considering whether I could launch something before the meet, and while I didn&rsquo;t end up using OpenTelemetry, I did manage to add Prometheus scraping to two of my Tailscale nodes. Maybe more excitingly, I discovered you can download other people&rsquo;s incredibly beautiful and professional dashboards.</p>
-<p>When it was set up (original estimate 30 mins, total time around 2 hours) I downloaded a couple of other dashboards. I couldn&rsquo;t, however, find one to display my Telegraf-sourced Docker monitoring. I ended up having Claude Code build me a fresh dashboard, and in the process I finally worked out why the original issue had happened.</p>
-<p>cAdvisor does not like cgroup v2, and as I&rsquo;d set up my home server in 2026 with an Ubuntu VM, it automatically had cgroup v2. The update had changed the file structure, which led to hours of personal frustration that could have been diagnosed in minutes if I&rsquo;d known where to look.</p>
-<p>Also, this is my first homelab. It&rsquo;s an old PC turned into a home server with a 4TB HDD added. This setup gave me a bunch of storage, but it led to a non-traditional Docker configuration (also the first time I&rsquo;d ever set up Docker and/or Portainer). This would also have prevented cAdvisor from working.</p>
-<p>I did some searching. There are over 25,000 Grafana dashboards, but none of them seem to cover my situation, which feels like a situation that&rsquo;s going to come up a lot for people building a homelab. So I added my dashboard to the Grafana community library with an explanation of what it covers. You can find it at <a href="https://grafana.com/grafana/dashboards/25012-pickles-container-overview-v2-telegraf"  target="_blank" rel="noreferrer">https://grafana.com/grafana/dashboards/25012-pickles-container-overview-v2-telegraf</a>.</p>
-<p>That&rsquo;s how my first contribution happened. You can tell it&rsquo;s mine because of the logo.</p>
-
-          
-          
-          
-        </div>
-        
-          
   
   
   
@@ -731,9 +609,44 @@
   
 
   
-    <div class="mb-10"></div>
+    <div class="mb-5"></div>
   
 
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>I spent my career building &ldquo;things&rdquo; and then finding ways to monitor that they were working. Early on, this included having a human go to websites, take screenshots, and save them. This made no one happy.</p>
+<p>Then one day, sat in the office helping QA a website before it went live, it came up in conversation that the product and QA team already tested everything I wanted to test with bots, and yes, they could save me some screenshots in a folder when they did it. How frequently did I want them?</p>
+<p>So when I recently started exploring infrastructure, monitoring was one of the areas that interested me most. I did my research: Grafana and Prometheus was the stack used in industry, so that seemed like the one. A few guides later, some pestering of Gemini and Claude, and I had my first runbook to set up my own monitoring stack.</p>
+<p>The goal was to monitor the Docker containers on my home server, a Proxmox box with an Ubuntu VM, containers organised with Portainer.</p>
+<p>I added Grafana, Prometheus, and cAdvisor following the multitude of guides, and hit a wall. Nothing was working. A few searches led nowhere, the logs didn&rsquo;t show anything wrong, it just didn&rsquo;t work. I turned to AI agents and started working through a multitude of excited suggestions which would immediately fix this. None did.</p>
+<p>Eventually we had success! cAdvisor wasn&rsquo;t working because of <em>something I didn&rsquo;t understand at the time</em>, but Telegraf would work just as well. However, this was many hours of YAML editing later.</p>
+<p>Then it was time to make my Grafana dashboard. All of the guides and advice use particular labels, which are not the ones used by Telegraf. The actual process was frustrating and took forever, every logical step to add the top 5 most resource-intensive containers seemed to lead to 15 rows of identical Valheim mocking me. But in the end I got lucky and was blessed with a lovely and useful dashboard.</p>
+<p>I loved this dashboard. I look at it on my phone and laptops using Tailscale to check if things are working when they should be (frustratingly, they often won&rsquo;t). I&rsquo;ve seen when my partner was watching something on Plex, that my 6-hourly scheduled actions were happening with the tools I&rsquo;d built, and that I was running a bunch of containers I wasn&rsquo;t using which took 30 seconds to start, so I turned them off to save resources.</p>
+<p>Then I saw a new Manchester tech meetup: Grafana and Friends. I&rsquo;d just seen someone explain some interesting ways of using OpenTelemetry, a topic which would be coming up again. I did some research considering whether I could launch something before the meet, and while I didn&rsquo;t end up using OpenTelemetry, I did manage to add Prometheus scraping to two of my Tailscale nodes. Maybe more excitingly, I discovered you can download other people&rsquo;s incredibly beautiful and professional dashboards.</p>
+<p>When it was set up (original estimate 30 mins, total time around 2 hours) I downloaded a couple of other dashboards. I couldn&rsquo;t, however, find one to display my Telegraf-sourced Docker monitoring. I ended up having Claude Code build me a fresh dashboard, and in the process I finally worked out why the original issue had happened.</p>
+<p>cAdvisor does not like cgroup v2, and as I&rsquo;d set up my home server in 2026 with an Ubuntu VM, it automatically had cgroup v2. The update had changed the file structure, which led to hours of personal frustration that could have been diagnosed in minutes if I&rsquo;d known where to look.</p>
+<p>Also, this is my first homelab. It&rsquo;s an old PC turned into a home server with a 4TB HDD added. This setup gave me a bunch of storage, but it led to a non-traditional Docker configuration (also the first time I&rsquo;d ever set up Docker and/or Portainer). This would also have prevented cAdvisor from working.</p>
+<p>I did some searching. There are over 25,000 Grafana dashboards, but none of them seem to cover my situation, which feels like a situation that&rsquo;s going to come up a lot for people building a homelab. So I added my dashboard to the Grafana community library with an explanation of what it covers. You can find it at <a href="https://grafana.com/grafana/dashboards/25012-pickles-container-overview-v2-telegraf"  target="_blank" rel="noreferrer">https://grafana.com/grafana/dashboards/25012-pickles-container-overview-v2-telegraf</a>.</p>
+<p>That&rsquo;s how my first contribution happened. You can tell it&rsquo;s mine because of the logo.</p>
+
+          
+          
+          
+        </div>
         
         
 

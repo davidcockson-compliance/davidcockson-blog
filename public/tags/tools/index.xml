@@ -18,7 +18,7 @@
       <author>hello@davidcockson.com (David Cockson)</author>
       <guid>//localhost:1313/posts/lccp-filter-self-made-tools/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/lccp-filter-self-made-tools/feature.png" />
     </item>
     
   </channel>
