@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on ~/david.cockson</title>
+    <link>//localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on ~/david.cockson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hello@davidcockson.com (David Cockson)</managingEditor>
+    <webMaster>hello@davidcockson.com (David Cockson)</webMaster>
+    <copyright>© 2026 David Cockson</copyright>
+    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Did the Supply Chain Attack Compromise Me? A Morning Panic Check</title>
+      <link>//localhost:1313/posts/supply-chain-attacks/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <author>hello@davidcockson.com (David Cockson)</author>
+      <guid>//localhost:1313/posts/supply-chain-attacks/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/supply-chain-attacks/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
