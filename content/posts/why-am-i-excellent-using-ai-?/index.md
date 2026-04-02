@@ -1,5 +1,5 @@
 +++
-title = "Linguistic Fluidity: Why ADHD Masking Makes Me Better at AI"
+title = "Linguistic Fluidity: Why reading Cyberpunk Makes Me Better at AI"
 date = 2026-04-02
 math = true
 tags = ["AI", "ADHD", "Prompt Engineering", "Compliance"]
@@ -7,7 +7,6 @@ tags = ["AI", "ADHD", "Prompt Engineering", "Compliance"]
 
 {{< katex >}}
 
-# Why am I excellent at using LLMs?
 
 At AI Data hive Manchester, Arushi Singh and Phil Whittaker's talks both agreed that LLMs are probabilistic. What does this mean? It means that they find the highest probability response from patterns and how they have been trained, they aren't (usually) doing their own calculations or thinking.
 
