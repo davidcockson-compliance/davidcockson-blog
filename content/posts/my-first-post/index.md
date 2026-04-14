@@ -2,6 +2,7 @@
 title = 'My First Post'
 date = 2026-03-22T13:50:22Z
 draft = false
+description = "Welcome to ~/david.cockson — a tech blog documenting cloud infrastructure projects, AI explorations, and the self-taught journey into DevOps."
 tags = ["Hugo", "Cloudflare", "Web"]
 +++
 

@@ -2,6 +2,7 @@
 title = 'Lccp Filter Self Made Tools'
 date = 2026-03-26T13:10:12Z
 draft = false
+description = "Building a schema-led LCCP filter and gap analysis tool using AI — from compliance frustration to a self-hosted, Docker-deployed prototype."
 tags = ["LCCP", "Filter", "Tools", "AI"]
 +++
 

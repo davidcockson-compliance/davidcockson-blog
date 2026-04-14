@@ -2,6 +2,7 @@
 title = 'How I Fell in Love With Obsidian'
 date = 2026-03-26T11:22:37Z
 draft = false
+description = "How a Zettelkasten-style Obsidian vault synced via Syncthing became the backbone for AI-assisted learning and homelab project management."
 tags = ["Synchthing", "Claude", "Obsidian"]
 +++
 

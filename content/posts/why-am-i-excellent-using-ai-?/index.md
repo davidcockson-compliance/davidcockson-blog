@@ -2,6 +2,7 @@
 title = "Linguistic Fluidity: Why reading Cyberpunk Makes Me Better at AI"
 date = 2026-04-02
 math = true
+description = "How linguistic fluidity, ADHD code-switching, and a background in compliance law combine to give an unexpected edge when prompting LLMs."
 tags = ["AI", "ADHD", "Prompt Engineering", "Compliance"]
 +++
 
