@@ -2,73 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>~/david.cockson</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on ~/david.cockson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hello@davidcockson.com (David Cockson)</managingEditor>
     <webMaster>hello@davidcockson.com (David Cockson)</webMaster>
     <copyright>© 2026 David Cockson</copyright>
-    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Apr 2026 13:22:37 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Linguistic Fluidity: Why ADHD Masking Makes Me Better at AI</title>
-      <link>//localhost:1313/posts/why-am-i-excellent-using-ai-/</link>
+      <title>Git - Green, Blue and Purple?</title>
+      <link>http://localhost:1313/posts/git-green-blue-purple/</link>
+      <pubDate>Sat, 18 Apr 2026 13:22:37 +0000</pubDate>
+      <author>hello@davidcockson.com (David Cockson)</author>
+      <guid>http://localhost:1313/posts/git-green-blue-purple/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/git-green-blue-purple/feature.png" />
+    </item>
+    
+    <item>
+      <title>Linguistic Fluidity: Why reading Cyberpunk Makes Me Better at AI</title>
+      <link>http://localhost:1313/posts/why-am-i-excellent-using-ai-/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/why-am-i-excellent-using-ai-/</guid>
+      <guid>http://localhost:1313/posts/why-am-i-excellent-using-ai-/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/why-am-i-excellent-using-ai-/feature.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/why-am-i-excellent-using-ai-/feature.jpeg" />
     </item>
     
     <item>
       <title>Did the Supply Chain Attack Compromise Me? A Morning Panic Check</title>
-      <link>//localhost:1313/posts/supply-chain-attacks/</link>
+      <link>http://localhost:1313/posts/supply-chain-attacks/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/supply-chain-attacks/</guid>
+      <guid>http://localhost:1313/posts/supply-chain-attacks/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/supply-chain-attacks/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/supply-chain-attacks/feature.png" />
     </item>
     
     <item>
       <title>Lccp Filter Self Made Tools</title>
-      <link>//localhost:1313/posts/lccp-filter-self-made-tools/</link>
+      <link>http://localhost:1313/posts/lccp-filter-self-made-tools/</link>
       <pubDate>Thu, 26 Mar 2026 13:10:12 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/lccp-filter-self-made-tools/</guid>
+      <guid>http://localhost:1313/posts/lccp-filter-self-made-tools/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/lccp-filter-self-made-tools/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/lccp-filter-self-made-tools/feature.png" />
     </item>
     
     <item>
       <title>How I Fell in Love With Obsidian</title>
-      <link>//localhost:1313/posts/how-i-fell-in-love-with-obsidian/</link>
+      <link>http://localhost:1313/posts/how-i-fell-in-love-with-obsidian/</link>
       <pubDate>Thu, 26 Mar 2026 11:22:37 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/how-i-fell-in-love-with-obsidian/</guid>
+      <guid>http://localhost:1313/posts/how-i-fell-in-love-with-obsidian/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/how-i-fell-in-love-with-obsidian/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/how-i-fell-in-love-with-obsidian/feature.png" />
     </item>
     
     <item>
       <title>Monitoring Observability Journey</title>
-      <link>//localhost:1313/posts/monitoring-observability-journey/</link>
+      <link>http://localhost:1313/posts/monitoring-observability-journey/</link>
       <pubDate>Wed, 25 Mar 2026 16:40:26 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/monitoring-observability-journey/</guid>
+      <guid>http://localhost:1313/posts/monitoring-observability-journey/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/monitoring-observability-journey/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/monitoring-observability-journey/feature.png" />
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 22 Mar 2026 13:50:22 +0000</pubDate>
       <author>hello@davidcockson.com (David Cockson)</author>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/my-first-post/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/my-first-post/feature.png" />
     </item>
     
   </channel>
